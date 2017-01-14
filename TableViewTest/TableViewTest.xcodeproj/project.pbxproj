@@ -15,6 +15,7 @@
 		3ED030C21E29FE9800DAB2FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED030C01E29FE9800DAB2FB /* LaunchScreen.storyboard */; };
 		3ED030CD1E29FE9800DAB2FB /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED030CC1E29FE9800DAB2FB /* TableViewTestTests.m */; };
 		3ED030D81E29FE9800DAB2FB /* TableViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED030D71E29FE9800DAB2FB /* TableViewTestUITests.m */; };
+		3ED030E71E29FF5E00DAB2FB /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED030E61E29FF5E00DAB2FB /* TestTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3ED030D31E29FE9800DAB2FB /* TableViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED030D71E29FE9800DAB2FB /* TableViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestUITests.m; sourceTree = "<group>"; };
 		3ED030D91E29FE9800DAB2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED030E51E29FF5E00DAB2FB /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		3ED030E61E29FF5E00DAB2FB /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3ED030B61E29FE9800DAB2FB /* AppDelegate.m */,
 				3ED030B81E29FE9800DAB2FB /* ViewController.h */,
 				3ED030B91E29FE9800DAB2FB /* ViewController.m */,
+				3ED030E51E29FF5E00DAB2FB /* TestTableViewCell.h */,
+				3ED030E61E29FF5E00DAB2FB /* TestTableViewCell.m */,
 				3ED030BB1E29FE9800DAB2FB /* Main.storyboard */,
 				3ED030BE1E29FE9800DAB2FB /* Assets.xcassets */,
 				3ED030C01E29FE9800DAB2FB /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED030BA1E29FE9800DAB2FB /* ViewController.m in Sources */,
+				3ED030E71E29FF5E00DAB2FB /* TestTableViewCell.m in Sources */,
 				3ED030B71E29FE9800DAB2FB /* AppDelegate.m in Sources */,
 				3ED030B41E29FE9800DAB2FB /* main.m in Sources */,
 			);
