@@ -10,4 +10,6 @@
 
 @interface TestTableViewCell : UITableViewCell
 
++ (TestTableViewCell *)tabelView:(UITableView *)tableView cellIdentifier:(NSString *)cellIdentifier;
+
 @end
